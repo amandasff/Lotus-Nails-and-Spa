@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
   <head>
@@ -57,7 +56,7 @@
     <header>
     <div id = "title" style = "background-color: hsl(315, 54%, 93%);">
       <a href=#contact> <img src="https://scontent.fyto1-2.fna.fbcdn.net/v/t39.30808-6/300415942_395445326007944_761073770473166939_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=Ik_NBRXMp3IAX_iKXXu&_nc_ht=scontent.fyto1-2.fna&oh=00_AfAgWU23t3jVm85MXCz4IxIKN4Y9mS3O2PATBVjhRgY2cg&oe=643A9AE1" style = "border:2px solid black;"></a>
-      <h1 text-align: center;>Lotus Nail and Spa</h1>
+      <h1 style = text-align: center;>Lotus Nail and Spa</h1>
       <p>At Lotus Nails & Spa, we do everything nail related, waxing, and even eyelash extensions!</p>
       <br>
     </div>
