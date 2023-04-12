@@ -1,5 +1,4 @@
-#Lotus Nails and Spa
-<!DOCTYPE html>
+
 <html>
   <head>
     <title>Lotus Nail and Spa</title>
