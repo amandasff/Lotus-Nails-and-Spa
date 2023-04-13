@@ -1,129 +1,184 @@
-
+<!DOCTYPE html>
 <html>
-  <head>
-    <title>Lotus Nail and Spa</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-      img {
-        border: 2px solid black;
-        margin: 10px;
-        text-align:center;
-        padding: 5px;
-      }
-       body {
-        font-family:Verdana;
-        text-align:center;
-      }
-      a:link {
-        color: Blue;
-        background-color: transparent;
-        text-decoration: none;
-      }
-      a:visited {
-        color: Purple;
-        background-color: transparent;
-        text-decoration: none;
-      }
-      a:hover {
-        color: red;
-        background-color: transparent;
-        text-decoration: underline;
-      }
-      a:active {
-        color: yellow;
-        background-color: transparent;
-        text-decoration: underline;
-      }
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body>
 
-      table {
-        font-family: verdana;
-        border-collapse: collapse;
-        width: 100%;
-      }
-      td, th {
-        border: 1px solid #dddddd;
-        text-align: left;
-        padding: 8px;
-      }
-
-      tr:nth-child(even) {
-        background-color: #dddddd;
-      }
-    </style>
-  </head>
-
-  <body>
-    <header>
-    <div id = "title" style = "background-color: hsl(315, 54%, 93%);">
-      <img src="https://scontent.fyto1-2.fna.fbcdn.net/v/t39.30808-6/300415942_395445326007944_761073770473166939_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=Ik_NBRXMp3IAX_iKXXu&_nc_ht=scontent.fyto1-2.fna&oh=00_AfAgWU23t3jVm85MXCz4IxIKN4Y9mS3O2PATBVjhRgY2cg&oe=643A9AE1" style = "border:2px solid black;">
-      <h1>Lotus Nail and Spa</h1>
-      <p>At Lotus Nails & Spa, we do everything nail related, waxing, and even eyelash extensions!</p>
-      <br>
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+    <a href="#home" class="w3-bar-item w3-button"><b></b> The Nail Bar</a>
+    <!-- Float links to the right. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="#projects" class="w3-bar-item w3-button">Home</a>
+      <a href="#about" class="w3-bar-item w3-button">About</a>
+      <a href="#contact" class="w3-bar-item w3-button">Contact Us</a>
     </div>
-    </header>
+  </div>
+</div>
 
-    <div id = "services">
-      <h2 style = "text-align:center;">Services</h2>
-      <h3> Nails </h3>
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
+  <img class="w3-image" src="https://th.bing.com/th/id/R.78e0c618b1fb4fb0815d822d5eead1b9?rik=IpZpKfh1FqvHSg&riu=http%3a%2f%2fyesofcorsa.com%2fwp-content%2fuploads%2f2018%2f03%2f4K-Painting-Nails-Photo-Download.jpg&ehk=TMTCiJGe3klPIhFTWafF20T0FdAfpLQCACA9wTkmvaM%3d&risl=&pid=ImgRaw&r=0" alt="Nails" width="1500" height="800">
+  <div class="w3-display-middle w3-margin-top w3-center">
+    <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>The Nail Bar</b></span> <span class="w3-hide-small w3-text-light-grey"></span></h1>
+  </div>
+  <h3 style="text-align:center">Come get nailed! Make time for you. Give your nails a sweet treat. Your nails will be phenomenal!</h3>
+</header>
 
-        <table>
-          <tr>
-            <td>Pedicure</td>
-            <td>$40</td>
-          </tr>
-          <tr>
-            <td>Manicure</td>
-            <td>$40</td>
-          </tr>
-        </table>
+<!-- Page content -->
+<div class="w3-content w3-padding" style="max-width:1564px">
 
-      <h3> Waxing </h3>
-      <table>
-          <tr>
-            <td>Legs</td>
-            <td>$40</td>
-          </tr>
-          <tr>
-            <td>Arms</td>
-            <td>$40</td>
-          </tr>
-        </table>
-      <h3> Eyelashes </h3>
-      <table>
-          <tr>
-            <td>Full Set</td>
-            <td>$40</td>
-          </tr>
-          <tr>
-            <td>Removal</td>
-            <td>$40</td>
-          </tr>
-        </table>
+  <!-- Project Section -->
+  <div class="w3-container w3-padding-32" id="projects">
+    <h2 class="w3-border-bottom w3-border-light-grey w3-padding-16"><strong>Services</strong></h2>
+    <h5>Nail Enhancements</h5>
+    <p><em>
+    List here.
+    </em></p>
+    <h5>Nail Care</h5>
+    <p><em>
+    List here.
+    </em></p>
+    <h5>Hair Removal</h5>
+ 	<p><em>
+    List here.
+    </em></p>
+    <h4>Lashes</h4>
+	<p><em>
+    List here.
+    </em></p>
+  </div>
+
+  <div class="w3-row-padding">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Manicure</div>
+        <img src="https://th.bing.com/th/id/R.0c2778e54406e7eb9161b715326767a4?rik=GdcMHkrB3X1ZLg&riu=http%3a%2f%2fyesofcorsa.com%2fwp-content%2fuploads%2f2018%2f03%2f4K-Painting-Nails-Photo1.jpg&ehk=AqOUwB3ctlrus0j%2bEfS0oU3EEhIS7Id7NgCK6mPiQXg%3d&risl=&pid=ImgRaw&r=0" alt="House" style="width:100%">
+      </div>
     </div>
-    <div id = "facebook">
-      <hr>
-      <h2> Facebook </h2>
-      <iframe src ="https://www.facebook.com/people/Lotus-Nails-Spa/100066274406781/" title = "Facebook" style = "border: none;" width = "500px" height = "300px"></iframe>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Pedicure</div>
+        <img src="https://th.bing.com/th/id/R.0c2778e54406e7eb9161b715326767a4?rik=GdcMHkrB3X1ZLg&riu=http%3a%2f%2fyesofcorsa.com%2fwp-content%2fuploads%2f2018%2f03%2f4K-Painting-Nails-Photo1.jpg&ehk=AqOUwB3ctlrus0j%2bEfS0oU3EEhIS7Id7NgCK6mPiQXg%3d&risl=&pid=ImgRaw&r=0" alt="House" style="width:100%">
+      </div>
     </div>
-    <div id = "gallery" style = "background-color: hsl(315, 54%, 93%);">
-      <hr>
-      <h2>Gallery</h2>
-      <img src="https://images-nailsnow.azureedge.net/images/02100902-c517-4fdc-a459-4827b4bdc572" alt="Store Front" style="width:128px;height:128px;">
-      <img src="https://th.bing.com/th?id=A%2fDpEYenbEYMq8g480x360&rs=1&pid=ImgDet" alt = "Inside 2" style="float:left;width:128px;height:128px;">
-      <img src="https://th.bing.com/th?id=ARgItDAmP1x%2b7Dg480x360&rs=1&pid=ImgDet" alt="Inside 1" style="float:left;width:128px;height:128px;">
-      
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Biogel</div>
+        <img src="https://th.bing.com/th/id/R.0c2778e54406e7eb9161b715326767a4?rik=GdcMHkrB3X1ZLg&riu=http%3a%2f%2fyesofcorsa.com%2fwp-content%2fuploads%2f2018%2f03%2f4K-Painting-Nails-Photo1.jpg&ehk=AqOUwB3ctlrus0j%2bEfS0oU3EEhIS7Id7NgCK6mPiQXg%3d&risl=&pid=ImgRaw&r=0" alt="House" style="width:100%">
+      </div>
     </div>
-    <footer>
-    <div id='contact'>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Shellac</div>
+        <img src="https://th.bing.com/th/id/R.0c2778e54406e7eb9161b715326767a4?rik=GdcMHkrB3X1ZLg&riu=http%3a%2f%2fyesofcorsa.com%2fwp-content%2fuploads%2f2018%2f03%2f4K-Painting-Nails-Photo1.jpg&ehk=AqOUwB3ctlrus0j%2bEfS0oU3EEhIS7Id7NgCK6mPiQXg%3d&risl=&pid=ImgRaw&r=0" alt="House" style="width:100%">
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-row-padding">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Manicure</div>
+        <img src="https://th.bing.com/th/id/R.0c2778e54406e7eb9161b715326767a4?rik=GdcMHkrB3X1ZLg&riu=http%3a%2f%2fyesofcorsa.com%2fwp-content%2fuploads%2f2018%2f03%2f4K-Painting-Nails-Photo1.jpg&ehk=AqOUwB3ctlrus0j%2bEfS0oU3EEhIS7Id7NgCK6mPiQXg%3d&risl=&pid=ImgRaw&r=0" alt="House" style="width:99%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Pedicure</div>
+        <img src="https://th.bing.com/th/id/R.0c2778e54406e7eb9161b715326767a4?rik=GdcMHkrB3X1ZLg&riu=http%3a%2f%2fyesofcorsa.com%2fwp-content%2fuploads%2f2018%2f03%2f4K-Painting-Nails-Photo1.jpg&ehk=AqOUwB3ctlrus0j%2bEfS0oU3EEhIS7Id7NgCK6mPiQXg%3d&risl=&pid=ImgRaw&r=0" alt="House" style="width:99%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Shellac</div>
+        <img src="https://th.bing.com/th/id/R.0c2778e54406e7eb9161b715326767a4?rik=GdcMHkrB3X1ZLg&riu=http%3a%2f%2fyesofcorsa.com%2fwp-content%2fuploads%2f2018%2f03%2f4K-Painting-Nails-Photo1.jpg&ehk=AqOUwB3ctlrus0j%2bEfS0oU3EEhIS7Id7NgCK6mPiQXg%3d&risl=&pid=ImgRaw&r=0" alt="House" style="width:99%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Biogel</div>
+        <img src="https://th.bing.com/th/id/R.0c2778e54406e7eb9161b715326767a4?rik=GdcMHkrB3X1ZLg&riu=http%3a%2f%2fyesofcorsa.com%2fwp-content%2fuploads%2f2018%2f03%2f4K-Painting-Nails-Photo1.jpg&ehk=AqOUwB3ctlrus0j%2bEfS0oU3EEhIS7Id7NgCK6mPiQXg%3d&risl=&pid=ImgRaw&r=0" alt="House" style="width:99%">
+      </div>
+    </div>
+  </div>
+
+  <!-- About Section -->
+  <div class="w3-container w3-padding-32" id="about">
+    <h2 class="w3-border-bottom w3-border-light-grey w3-padding-16"><strong>About Us</strong></h2>
+    <p>We are a nail, lash, and hair removal spa based in North York. Visit us for a phenomenal look!
+    </p>
+  </div>
+
+  <div class="w3-row-padding w3-grayscale">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="https://icon-library.com/images/person-icon-png/person-icon-png-0.jpg" alt="John" style="width:100%">
+      <h3>Name</h3>
+      <p class="w3-opacity">Owner</p>
+      <p>Information.</p>
+      <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="https://icon-library.com/images/person-icon-png/person-icon-png-0.jpg" alt="Jane" style="width:100%">
+      <h3>Name</h3>
+      <p class="w3-opacity">Artist</p>
+      <p>Information.</p>
+      <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="https://icon-library.com/images/person-icon-png/person-icon-png-0.jpg" alt="Mike" style="width:100%">
+      <h3>Name</h3>
+      <p class="w3-opacity">Artist</p>
+      <p>Information.</p>
+      <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="https://icon-library.com/images/person-icon-png/person-icon-png-0.jpg" alt="Dan" style="width:100%">
+      <h3>Name</h3>
+      <p class="w3-opacity">Artist</p>
+      <p>Information</p>
+      <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+    </div>
+  </div>
+
+  <!-- Contact Section -->
+  <div class="w3-container w3-padding-32" id="contact">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Contact</h3>
+    <p>Get in touch with us!</p>
+    <form action="/action_page.php" target="_blank">
+      <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+      <input class="w3-input w3-section w3-border" type="text" placeholder="Email" required name="Email">
+      <input class="w3-input w3-section w3-border" type="text" placeholder="Subject" required name="Subject">
+      <input class="w3-input w3-section w3-border" type="text" placeholder="Comment" required name="Comment">
+      <button class="w3-button w3-black w3-section" type="submit">
+        <i class="fa fa-paper-plane"></i> SEND MESSAGE
+      </button>
+    </form>
+  </div>
+  
+<!-- Image of location/map -->
+<div class="w3-container">
+  <img src="https://th.bing.com/th?id=A%2fDpEYenbEYMq8g480x360&rs=1&pid=ImgDet" class="w3-image" style="width:100%">
+</div>
+
+<!-- End page content -->
+</div>
+
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-16">
       <address><pre>
-      Address: 900 Don Mills Rd Suite 3B, Toronto
+      Address: 3B - 900 Don Mills Rd Suite 3B, Toronto
       Phone:(416)-331-8388
-      Visit us at:<a href="https://www.facebook.com/people/Lotus-Nails-Spa/100066274406781/">Facebook</a>
-      <a href="mailto:amanda.sf.wu@gmail.com" title = "Email Amanda">Email the website creator:)</a>
-      <button onclick="document.location='#title'">Return to top</button>
+      Visit us at:<a href="https://www.facebook.com/people/Lotus-Nails-Spa/100066274406781/">Instagram</a>
+      <a href="mailto:amanda.sf.wu@gmail.com" title = "Email Amanda">Email us!</a>
       </pre></address>
+</footer>
 
-    </div>
-    </footer>
-  </body>
+</body>
 </html>
